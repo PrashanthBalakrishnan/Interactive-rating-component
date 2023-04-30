@@ -1,5 +1,5 @@
 import star from '../assets/icon-star.svg'
-import { FormEvent, useState } from 'react'
+import { FormEvent } from 'react'
 
 type RatingProps = {
     setSubmitted: React.Dispatch<React.SetStateAction<boolean>>
