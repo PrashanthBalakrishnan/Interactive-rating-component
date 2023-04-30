@@ -1,0 +1,130 @@
+:root {
+    /* Primary Color */
+    --Orange: hsl(25, 97%, 53%);
+    /* Neutral Color */
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --Grey: hsl(211, 19%, 24%);
+    --DarkBlue: hsl(215, 24%, 14%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+
+    --Font: 'Overpass', sans-serif;
+}
+
+body {
+    background-color: var(--VeryDarkBlue);
+    color: white;
+    font-family: var(--Font);
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.app {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--DarkBlue);
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card__logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--Grey);
+    position: relative;
+}
+.card__logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.card__heading {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.card__desc {
+    font-size: 15px;
+    color: var(--LightGrey);
+}
+
+.card__rating {
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    border: none;
+    font: inherit;
+    color: var(--White);
+    cursor: pointer;
+}
+
+.ratingBtn {
+    height: 50px;
+    width: 50px;
+    background-color: var(--Grey);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.ratingBtn:hover {
+    background-color: var(--Orange);
+}
+.ratingBtn:focus {
+    background-color: var(--LightGrey);
+    outline: transparent;
+}
+
+.submitBtn {
+    background-color: var(--Orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 30px;
+    width: 100%;
+    letter-spacing: 1.2px;
+}
+
+.submitBtn:hover,
+.submitBtn:focus {
+    background-color: var(--White);
+    color: var(--Orange);
+    outline: transparent;
+}
+
+/* Thank you component */
+.thankYou__img {
+    width: 164px;
+    align-self: center;
+    margin-top: 20px;
+}
+.card__rated {
+    margin-top: 10px;
+}
+.card__rated span {
+    background-color: var(--Grey);
+    padding: 10px 12px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: var(--Orange);
+}
