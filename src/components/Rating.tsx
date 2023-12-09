@@ -22,7 +22,7 @@ export const Rating = ({ setSubmitted, submitted, setRating }: RatingProps) => {
                 <img src={star} alt="star logo" />
             </div>
             <div>
-                <h2 className="card__heading">How did we do?</h2>
+                <h1 className="card__heading">How did we do?</h1>
                 <p className="card__desc">
                     Please let us know how we did with your support request. All
                     feedback is appreciated to help us improve our offering!

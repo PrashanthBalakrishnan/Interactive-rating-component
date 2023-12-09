@@ -7,7 +7,7 @@ function App() {
     const [rating, setRating] = useState<number>()
 
     return (
-        <div className="app">
+        <main className="app">
             {submitted ? (
                 <ThankYou rating={rating} />
             ) : (
@@ -17,7 +17,7 @@ function App() {
                     setSubmitted={setSubmitted}
                 />
             )}
-        </div>
+        </main>
     )
 }
 

@@ -12,7 +12,7 @@ const ThankYou = ({ rating }: ThankYouProps) => {
                 <span>You selected {rating} out of 5</span>
             </div>
             <div>
-                <h2 className="card__heading">Thank you!</h2>
+                <h1 className="card__heading">Thank you!</h1>
                 <p className="card__desc">
                     We appreciate you taking the time to give a rating. If you
                     ever need more support, don’t hesitate to get in touch!

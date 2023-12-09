@@ -1,11 +1,11 @@
 :root {
     /* Primary Color */
-    --Orange: hsl(25, 97%, 53%);
+    --Orange: #904004;
     /* Neutral Color */
     --White: hsl(0, 0%, 100%);
     --LightGrey: hsl(217, 12%, 63%);
     --MediumGrey: hsl(216, 12%, 54%);
-    --Grey: hsl(211, 19%, 24%);
+    --Grey: #323d49;
     --DarkBlue: hsl(215, 24%, 14%);
     --VeryDarkBlue: hsl(216, 12%, 8%);
 
@@ -122,7 +122,7 @@ body {
     margin-top: 10px;
 }
 .card__rated span {
-    background-color: var(--Grey);
+    background-color: #fcfcfc;
     padding: 10px 12px;
     border-radius: 30px;
     font-size: 15px;
